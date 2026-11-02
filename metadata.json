@@ -1,0 +1,7 @@
+{
+  "name": "BOINOX - Premium 4K & 8K Wallpapers",
+  "description": "Wallpapers Without Limits. Discover, preview, and download premium 4K, 8K, AMOLED, and mobile wallpapers with ultra-sharp clarity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
