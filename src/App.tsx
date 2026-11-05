@@ -14,8 +14,10 @@ import { Wallpaper, WallpaperCategory, SortOption, OrientationFilter, Resolution
 import { StorageService } from './services/storageService';
 import { downloadWallpaper } from './utils/downloadHelper';
 import { Check, AlertCircle, Heart } from 'lucide-react';
-
-export default function App() {
+import Admin from "./pages/Admin";
+export default function App() {if (window.location.pathname === "/admin") {
+    return <Admin />;
+  } 
   // Navigation & Data State
   const [activeTab, setActiveTab] = useState<'home' | 'categories' | 'latest' | 'popular' | 'favorites'>('home');
   const [wallpapers, setWallpapers] = useState<Wallpaper[]>([]);
